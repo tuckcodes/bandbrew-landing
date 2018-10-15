@@ -1,0 +1,62 @@
+[
+  {
+    "outputFileName": "css/creative.min.css",
+    "inputFiles": [
+      "css/creative.css"
+    ]
+  },
+  {
+    "outputFileName": "js/creative.min.js",
+    "inputFiles": [
+      "js/creative.js"
+    ]
+  },
+  {
+    "outputFileName": "css/background.min.css",
+    "inputFiles": [
+      "css/background.css"
+    ]
+  },
+  {
+    "outputFileName": "js/background.min.js",
+    "inputFiles": [
+      "js/background.js"
+    ]
+  },
+  {
+    "outputFileName": "vendor/bootstrap/js/bootstrap.bundle.min.js",
+    "inputFiles": [
+      "vendor/bootstrap/js/bootstrap.bundle.js"
+    ]
+  },
+  {
+    "outputFileName": "vendor/bootstrap/js/bootstrap.min.js",
+    "inputFiles": [
+      "vendor/bootstrap/js/bootstrap.js"
+    ]
+  },
+  {
+    "outputFileName": "vendor/jquery/jquery.min.js",
+    "inputFiles": [
+      "vendor/jquery/jquery.js"
+    ]
+  },
+  {
+    "outputFileName": "vendor/jquery/jquery.slim.min.js",
+    "inputFiles": [
+      "vendor/jquery/jquery.slim.js"
+    ]
+  },
+  {
+    "outputFileName": "vendor/jquery-easing/jquery.easing.min.js",
+    "inputFiles": [
+      "vendor/jquery-easing/jquery.easing.js"
+    ]
+  },
+  {
+    "outputFileName": "vendor/scrollreveal/scrollreveal.min.js",
+    "inputFiles": [
+      "vendor/scrollreveal/scrollreveal.js"
+    ]
+  }
+]
