@@ -293,17 +293,22 @@
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
 
-    <!-- Mailchimp popup form -->
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <!-- START Mailchimp popup form -->
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+        data-dojo-config="usePlainJson: true, isDebug: false"></script>
     <script type="text/javascript">
-        require(["mojo/signup-forms/Loader"], function (L) {
-            L.start({
-                "baseUrl": "mc.us17.list-manage.com",
-                "uuid": "abfae2868800deeffbe90bd67",
-                "lid": "f73a043eb5"
+        window.dojoRequire(["mojo/signup-forms/Loader"],
+            function (L) {
+                L.start({
+                    "baseUrl": "mc.us20.list-manage.com",
+                    "uuid": "34bdc4ce04acb6eb215f580bc",
+                    "lid": "475a134c8a",
+                    "uniqueMethods": true
+                })
             })
-        })
     </script>
+    <!-- END Mailchimp popup form -->
+
 </body>
 
 </html>
